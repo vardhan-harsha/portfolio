@@ -6,13 +6,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;400;500;600;700;800&family=Reddit+Mono:wght@200..900&display=swap');
 
 .App {
-  text-align: center;
+  background-color: #282c34;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
 }
 
 
 .App-header {
   font-family: 'Reddit Mono', sans-serif;
-  background-color: #282c34;
   background-image: url('./assets/images/layered-waves.svg');
   background-repeat: no-repeat;
   background-size: cover;
