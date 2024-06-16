@@ -41,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "tailwind-merge": "^2.3.0",
